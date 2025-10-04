@@ -18,14 +18,11 @@ git clone 'url'
 cp .env.example .env
 ```
 
-**Crie o diretório do wordpress na raiz**
-```bash
-mkdir wordpress
-```
-
 **Construa a aplicação**
 ```bash
 docker compose -f docker-compose.dev.yaml up -d --build
 ```
+
+> Caso precise commitar as alterações do seu projeto wordpress, lembre-se de remover o `.gitignore` do diretório `./wordpress` 
 
 ### </> Desenvolva e seja feliz </>
