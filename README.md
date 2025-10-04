@@ -3,7 +3,7 @@
 Este template Docker é a sua solução para criar aplicações WordPress de alto desempenho. Ele fornece o ambiente isolado e configurável que você precisa para trabalhar com integração RESTful e desenvolver plugins customizados com eficiência.
 
 ### Ferramentas:
-- redis (lastest)
+- redis (latest)
 - wordpress
 - mariadb 10.11
 
